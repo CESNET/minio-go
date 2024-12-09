@@ -33,7 +33,7 @@ import (
 
 // AssumeRoleWithWebIdentityResponse contains the result of successful AssumeRoleWithWebIdentity request.
 type AssumeRoleWithWebIdentityResponse struct {
-	XMLName          xml.Name          `xml:"https://sts.amazonaws.com/doc/2011-06-15/ AssumeRoleWithWebIdentityResponse" json:"-"`
+	XMLName          xml.Name          `xml:"AssumeRoleWithWebIdentityResponse" json:"-"`
 	Result           WebIdentityResult `xml:"AssumeRoleWithWebIdentityResult"`
 	ResponseMetadata struct {
 		RequestID string `xml:"RequestId,omitempty"`
